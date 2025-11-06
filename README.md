@@ -4,10 +4,11 @@
 This project performs an Exploratory Data Analysis (EDA) on the Netflix Titles dataset to uncover insights about content trends, genre popularity, and country-wise production patterns.
 It includes data cleaning, feature engineering, and visual storytelling using Seaborn and Matplotlib.
 
-## ObjectivesUnderstand the distribution of Movies vs TV Shows on Netflix.
-1. Analyze content growth trends over the years.
+## Objectives
+1. Understand the distribution of Movies vs TV Shows on Netflix.
+2. Analyze content growth trends over the years.
 2. Identify top genres and top contributing countries.
-3. Study release year distributions and content addition timelines.
+4. Study release year distributions and content addition timelines.
 
 ## Tools & Libraries
 1. Python
@@ -186,12 +187,34 @@ sns.histplot(data=df, x='content_age_when_added', hue='type',
 
 plt.title('Distribution of Content Age When Added to Netflix')
 plt.xlabel('Content Age (Years)')
-plt.ylabel('Count of Titles')
+plt.ylabel('Count of Titles')#
 plt.xlim(0, 30) # Limit x-axis for better focus on recent history
 plt.legend(title='Type', labels=['TV Show', 'Movie'])
 plt.show()
 ```
+## Key insights
+1. Movies make up the majority of Netflix content, but TV Shows are steadily increasing.
+2. United States, India, and United Kingdom dominate Netflix’s library.
+3. The highest number of titles were added between 2016–2019, coinciding with Netflix’s global expansion.
+4. Popular genres include Dramas, Comedies, and Documentaries.
+5. Most titles were released within the past decade, showing Netflix’s preference for modern content.
 
+## Learnings from the Project
+1. Data cleaning and preprocessing using Pandas
+2. Handling missing values and feature engineering
+3. Exploratory Data Analysis using Seaborn and Matplotlib
+4. Visual storytelling and drawing data-driven insights
+5. Structuring Jupyter notebooks for reproducible data projects.
+
+## Conclusion
+This project provided a clear understanding of how Netflix’s content library has evolved over time.
+Through data cleaning, visualization, and analysis, several meaningful patterns were uncovered that reflect Netflix’s growth strategy and audience preferences.
+1. Netflix’s focus has gradually shifted from being a movie-centric platform to offering a strong lineup of TV shows, catering to long-form viewing habits.
+2. The increasing content addition over the years highlights Netflix’s rapid global expansion, particularly after 2015.
+3. A diverse range of genres and countries indicates Netflix’s strategy to appeal to a worldwide audience.
+4. The preference for recently released content suggests an emphasis on keeping the catalog fresh and relevant.
+   
+Overall, this analysis showcases how data exploration can uncover hidden business patterns and guide understanding of platform evolution.
 
 
 
