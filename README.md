@@ -10,10 +10,11 @@ It includes data cleaning, feature engineering, and visual storytelling using Se
 3.Study release year distributions and content addition timelines.
 
 ## Tools & Libraries
- Python
-1.Pandas, NumPy for Data analysis & cleaning
-2.Matplotlib, Seaborn, Plotly for Data visualization
-3.Jupyter Notebook for Development and exploration environment
+
+1. Python
+2.Pandas, NumPy for Data analysis & cleaning
+3.Matplotlib, Seaborn, Plotly for Data visualization
+4.Jupyter Notebook for Development and exploration environment
 
 ## Project Structure
 **Install required libraries**:
@@ -23,13 +24,13 @@ import pandas as pd
 import seaborn as sns
 import numpy as np
 ```
-**Load dataset**
+# Load dataset
 ```python
 df = pd.read_csv(r"C:\Users\hp\Desktop\project\netflix_titles.csv")
 df
 ```
 
-**Data Overview & Quality Check**
+## Data Overview & Quality Check
  1.View column names, data types, and non-null counts
 ```python 
 df.info()
