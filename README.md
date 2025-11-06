@@ -1,4 +1,4 @@
-# python_analysis-_project 
+### python_analysis-_project 
 
 ## Project Overview:
 This project performs an Exploratory Data Analysis (EDA) on the Netflix Titles dataset to uncover insights about content trends, genre popularity, and country-wise production patterns.
@@ -10,14 +10,13 @@ It includes data cleaning, feature engineering, and visual storytelling using Se
 3.Study release year distributions and content addition timelines.
 
 ## Tools & Libraries
-
 1. Python
 2.Pandas, NumPy for Data analysis & cleaning
 3.Matplotlib, Seaborn, Plotly for Data visualization
 4.Jupyter Notebook for Development and exploration environment
 
 ## Project Structure
-**Install required libraries**:
+# Install required libraries:
 ```python
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -53,7 +52,7 @@ df[df.duplicated()].shape
 ```
 
 
-**Data Cleaning**
+# Data Cleaning
 1. Handle missing values
  ```python
 df['director'] = df['director'].fillna('Unknown')
