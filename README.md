@@ -23,13 +23,13 @@ import pandas as pd
 import seaborn as sns
 import numpy as np
 ```
-# Load dataset
+### Load dataset
 ```python
 df = pd.read_csv(r"C:\Users\hp\Desktop\project\netflix_titles.csv")
 df
 ```
 
-## Data Overview & Quality Check
+### Data Overview & Quality Check
  1.View column names, data types, and non-null counts
 ```python 
 df.info()
@@ -52,7 +52,7 @@ df[df.duplicated()].shape
 ```
 
 
-# Data Cleaning
+### Data Cleaning
 1. Handle missing values
  ```python
 df['director'] = df['director'].fillna('Unknown')
@@ -77,7 +77,7 @@ df['month_added'] = df['date_added'].dt.month
 df.dropna(subset=['date_added'], inplace=True)
 ```
 
-## Exploratory Data Analysis (EDA) & Visualization
+### Exploratory Data Analysis (EDA) & Visualization
 After cleaning, the dataset was explored visually and statistically to understand the trends, patterns, and distributions within Netflix content:
 
 1.**Initial Exploration**
