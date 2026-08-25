@@ -1,10 +1,10 @@
-# 🎬 Netflix Content Strategy Analysis
+#  Netflix Content Strategy Analysis
 
 > Exploratory Data Analysis of 8,800+ Netflix titles to uncover content strategy shifts, geographic expansion patterns, and seasonal acquisition behaviour using Python.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 **Project Title:** Netflix Content Strategy Analysis
 **Tool:** Python (pandas, matplotlib, seaborn)
@@ -12,14 +12,14 @@
 This project analyses Netflix's content library (2008–2021) to answer 7 specific business questions about content strategy, geographic expansion, genre trends, and acquisition patterns — translating raw streaming data into actionable content strategy insights.
 
 **Tools Used:**
-- 🐍 Python — analysis and visualization
-- 🐼 pandas — data cleaning and feature engineering
-- 📊 matplotlib & seaborn — data visualization
-- 🐙 GitHub — version control
+-  Python — analysis and visualization
+-  pandas — data cleaning and feature engineering
+-  matplotlib & seaborn — data visualization
+-  GitHub — version control
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 netflix-analysis/
@@ -45,7 +45,7 @@ netflix-analysis/
 
 ---
 
-## 🔧 Data Cleaning & Feature Engineering
+##  Data Cleaning & Feature Engineering
 
 ### Cleaning Steps
 - Filled missing values — director, cast, country, rating, duration
@@ -62,7 +62,7 @@ This feature reveals Netflix's content acquisition strategy — whether they pre
 
 ---
 
-## ❓ Business Questions Answered
+##  Business Questions Answered
 
 | # | Business Question |
 |---|------------------|
@@ -77,7 +77,7 @@ This feature reveals Netflix's content acquisition strategy — whether they pre
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 
 - Movies vs TV Shows — count plot and pie chart
 - Yearly content addition trend — line chart and proportional stackplot
@@ -91,7 +91,7 @@ This feature reveals Netflix's content acquisition strategy — whether they pre
 
 ---
 
-## 🔑 Key Findings
+##  Key Findings
 
 ### 1. Netflix is shifting toward TV Shows
 TV Show additions have grown significantly faster than Movies since 2018 — suggesting Netflix is investing in episodic content to improve subscriber retention and reduce churn.
@@ -116,7 +116,7 @@ The most prolific Netflix directors are predominantly from India and other inter
 
 ---
 
-## 📐 Strategic Implications
+##  Strategic Implications
 
 | Finding | Implication |
 |---------|-------------|
@@ -128,7 +128,7 @@ The most prolific Netflix directors are predominantly from India and other inter
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone the repository
 2. Install dependencies:
@@ -141,16 +141,3 @@ pip install pandas matplotlib seaborn numpy
 
 ---
 
-## 👤 Author
-
-**Rajveer**
-- 📧 [your email]
-- 💼 [your LinkedIn]
-- 🐙 [your GitHub]
-
----
-
-## 📄 License
-
-This project is for portfolio and educational purposes.
-Data source: Netflix Titles Dataset (publicly available on Kaggle)
